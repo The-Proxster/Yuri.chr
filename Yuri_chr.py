@@ -3,6 +3,7 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
+import os
 
 bot = commands.Bot(command_prefix='Y! ')
 @bot.event
@@ -46,4 +47,4 @@ async def ping(ctx):
     await bot.say("You must like me r-right?~")
     
 
-bot.run(BOT_TOKEN)
+bot.run(os.environ['BOT_TOKEN'])
