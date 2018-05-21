@@ -1,1 +1,1 @@
-worker: python Yuri.chr.py
+worker: python Yuri_chr.py
