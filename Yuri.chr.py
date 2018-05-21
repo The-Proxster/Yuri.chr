@@ -46,4 +46,4 @@ async def ping(ctx):
     await bot.say("You must like me r-right?~")
     
 
-bot.run("NDM2NzIyMTg5NDU1MDY1MDkw.Dbt8tQ.9A_Iy0pgRWWzsZw3xZOESe8lSmI")
+bot.run(BOT_TOKEN)
